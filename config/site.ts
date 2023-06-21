@@ -1,18 +1,11 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Club Squared",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
-  mainNav: [
-    {
-      title: "Home",
-      href: "/",
-    },
-  ],
+    "An iGEM team from the University of Lethbridge, working on a project to improve the efficiency of the Clubroot detection.",
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    github: "https://github.com/MattyD1",
     docs: "https://ui.shadcn.com",
   },
 }

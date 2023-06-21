@@ -9,7 +9,7 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        xl: "1024px",
       },
     },
     extend: {
@@ -55,6 +55,11 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
+      minHeight: {
+        "2/3": "66.6vh",
+        "3/4": "75vh",
+        "1/2": "50vh",
       },
       keyframes: {
         "accordion-down": {
